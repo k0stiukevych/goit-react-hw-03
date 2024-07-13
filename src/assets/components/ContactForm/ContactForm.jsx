@@ -14,8 +14,8 @@ const ContactShema = Yup.object().shape({
     .required("This field is required"),
   number: Yup.string()
     .min(
-      10,
-      "Please enter your phone number. The minimum length is ten digits without a dash/thirteen with a dash."
+      9,
+      "Please enter your phone number. The minimum length is nine digits without a dash/thirteen with a dash."
     )
     .max(13, "Too long!")
     .required("This field is required"),
