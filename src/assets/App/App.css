@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.mainContainer {
+  margin:  0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+.title {
+  max-width: 300px;
+  margin-left: 100px;
+}
